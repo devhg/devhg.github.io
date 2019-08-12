@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/about/index.html</loc>
+    
+    <lastmod>2019-08-12T13:07:33.617Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/2019/08/12/hexo-%E6%8A%A5%E9%94%99-Cannot-read-property-replace-of-null/</loc>
     
     <lastmod>2019-08-12T11:45:05.625Z</lastmod>
@@ -23,21 +30,14 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/about/index.html</loc>
-    
-    <lastmod>2019-08-12T11:33:38.495Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/categories/index.html</loc>
+    <loc>https://letcoder.cn/books/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/books/index.html</loc>
+    <loc>https://letcoder.cn/categories/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
