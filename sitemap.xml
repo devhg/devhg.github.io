@@ -30,13 +30,6 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/books/index.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://letcoder.cn/categories/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
@@ -44,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/repository/index.html</loc>
+    <loc>https://letcoder.cn/books/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
@@ -52,6 +45,13 @@
   
   <url>
     <loc>https://letcoder.cn/links/index.html</loc>
+    
+    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/repository/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
