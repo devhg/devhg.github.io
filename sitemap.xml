@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/2019/08/17/%E8%A1%A8%E5%8D%95onsubmit%E4%BA%8B%E4%BB%B6%E6%97%A0%E6%95%88-%E8%A1%A8%E5%8D%95onsubmit%E5%90%8E%E4%BD%BF%E7%94%A8ajax%E6%97%A0%E6%95%88%E8%A7%A3%E5%86%B3/</loc>
+    
+    <lastmod>2019-08-17T12:30:10.598Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/2019/08/15/Mybatis%E6%9F%A5%E8%AF%A2parameterType%E5%A4%9A%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/</loc>
     
     <lastmod>2019-08-15T13:48:07.978Z</lastmod>
@@ -44,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/categories/index.html</loc>
+    <loc>https://letcoder.cn/books/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/books/index.html</loc>
+    <loc>https://letcoder.cn/categories/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
