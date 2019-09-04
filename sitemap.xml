@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/2019/09/04/Mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    
+    <lastmod>2019-09-04T13:05:02.021Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/2019/08/24/springMVC%E9%85%8D%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
     
     <lastmod>2019-08-24T13:32:05.974Z</lastmod>
@@ -58,6 +65,13 @@
   </url>
   
   <url>
+    <loc>https://letcoder.cn/categories/index.html</loc>
+    
+    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/books/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
@@ -65,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/categories/index.html</loc>
+    <loc>https://letcoder.cn/links/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
@@ -80,13 +94,6 @@
   
   <url>
     <loc>https://letcoder.cn/tags/index.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/links/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
