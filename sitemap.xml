@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/2019/09/05/centos%E4%BF%AE%E6%94%B9mysql-root%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
+    
+    <lastmod>2019-09-05T12:18:20.325Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/2019/09/04/Mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     
     <lastmod>2019-09-04T13:05:02.021Z</lastmod>
@@ -65,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/categories/index.html</loc>
+    <loc>https://letcoder.cn/links/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
@@ -79,7 +86,7 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/links/index.html</loc>
+    <loc>https://letcoder.cn/categories/index.html</loc>
     
     <lastmod>2019-08-12T10:47:17.651Z</lastmod>
     
