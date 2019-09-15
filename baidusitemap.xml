@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://letcoder.cn/2019/09/15/Java%E5%A0%86%E6%A0%88/</loc>
+    <loc>https://letcoder.cn/blog/2019/09/15/Java%E5%A0%86%E6%A0%88/</loc>
     <lastmod>2019-09-15</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/09/05/centos%E4%BF%AE%E6%94%B9mysql-root%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
+    <loc>https://letcoder.cn/blog/2019/09/05/centos%E4%BF%AE%E6%94%B9mysql-root%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
     <lastmod>2019-09-05</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/09/04/Mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <loc>https://letcoder.cn/blog/2019/09/04/Mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2019-09-04</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/08/24/springMVC%E9%85%8D%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
+    <loc>https://letcoder.cn/blog/2019/08/24/springMVC%E9%85%8D%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
     <lastmod>2019-08-24</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/08/17/%E8%A1%A8%E5%8D%95onsubmit%E4%BA%8B%E4%BB%B6%E6%97%A0%E6%95%88-%E8%A1%A8%E5%8D%95onsubmit%E5%90%8E%E4%BD%BF%E7%94%A8ajax%E6%97%A0%E6%95%88%E8%A7%A3%E5%86%B3/</loc>
+    <loc>https://letcoder.cn/blog/2019/08/17/%E8%A1%A8%E5%8D%95onsubmit%E4%BA%8B%E4%BB%B6%E6%97%A0%E6%95%88-%E8%A1%A8%E5%8D%95onsubmit%E5%90%8E%E4%BD%BF%E7%94%A8ajax%E6%97%A0%E6%95%88%E8%A7%A3%E5%86%B3/</loc>
     <lastmod>2019-08-17</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/08/15/Mybatis%E6%9F%A5%E8%AF%A2parameterType%E5%A4%9A%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://letcoder.cn/blog/2019/08/15/Mybatis%E6%9F%A5%E8%AF%A2parameterType%E5%A4%9A%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2019-08-15</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/08/13/HTML5-app%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-java%E5%90%8E%E7%AB%AF/</loc>
+    <loc>https://letcoder.cn/blog/2019/08/13/HTML5-app%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-java%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2019-08-15</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/08/12/hexo-%E6%8A%A5%E9%94%99-Cannot-read-property-replace-of-null/</loc>
+    <loc>https://letcoder.cn/blog/2019/08/12/hexo-%E6%8A%A5%E9%94%99-Cannot-read-property-replace-of-null/</loc>
     <lastmod>2019-08-12</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/08/12/%E6%96%B0%E5%90%AF%E7%A8%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</loc>
+    <loc>https://letcoder.cn/blog/2019/08/12/%E6%96%B0%E5%90%AF%E7%A8%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</loc>
     <lastmod>2019-08-12</lastmod>
   </url>  <url>
-    <loc>https://letcoder.cn/2019/08/12/Hexo%E6%96%B0%E5%BC%80%E5%A7%8B/</loc>
+    <loc>https://letcoder.cn/blog/2019/08/12/Hexo%E6%96%B0%E5%BC%80%E5%A7%8B/</loc>
     <lastmod>2019-08-12</lastmod>
   </url>
 </urlset>
