@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/projects/index.html</loc>
+    
+    <lastmod>2019-09-15T13:40:07.491Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/categories/index.html</loc>
+    
+    <lastmod>2019-09-15T13:38:44.767Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/tags/index.html</loc>
+    
+    <lastmod>2019-09-15T13:36:23.167Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/friends/index.html</loc>
+    
+    <lastmod>2019-09-15T13:13:44.641Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/404.html</loc>
+    
+    <lastmod>2019-09-15T13:05:57.957Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/about/index.html</loc>
+    
+    <lastmod>2019-09-15T12:58:08.162Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/09/15/Java%E5%A0%86%E6%A0%88/</loc>
+    
+    <lastmod>2019-09-15T12:37:13.320Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/2019/09/05/centos%E4%BF%AE%E6%94%B9mysql-root%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
     
     <lastmod>2019-09-05T12:18:20.325Z</lastmod>
@@ -44,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/about/index.html</loc>
-    
-    <lastmod>2019-08-12T13:07:33.617Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://letcoder.cn/2019/08/12/hexo-%E6%8A%A5%E9%94%99-Cannot-read-property-replace-of-null/</loc>
     
     <lastmod>2019-08-12T11:45:05.625Z</lastmod>
@@ -68,48 +110,6 @@
     <loc>https://letcoder.cn/2019/08/12/Hexo%E6%96%B0%E5%BC%80%E5%A7%8B/</loc>
     
     <lastmod>2019-08-12T11:37:27.680Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/links/index.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/books/index.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/categories/index.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/repository/index.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/tags/index.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn//404.html</loc>
-    
-    <lastmod>2019-08-12T10:47:17.650Z</lastmod>
     
   </url>
   
