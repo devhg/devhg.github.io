@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/2019/09/15/Java%E5%A0%86%E6%A0%88/</loc>
+    
+    <lastmod>2019-09-17T11:57:27.015Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/09/17/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-09-17T11:57:22.547Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/friends/index.html</loc>
     
     <lastmod>2019-09-16T11:25:09.271Z</lastmod>
@@ -40,13 +54,6 @@
     <loc>https://letcoder.cn/about/index.html</loc>
     
     <lastmod>2019-09-15T12:58:08.162Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/2019/09/15/Java%E5%A0%86%E6%A0%88/</loc>
-    
-    <lastmod>2019-09-15T12:37:13.320Z</lastmod>
     
   </url>
   
