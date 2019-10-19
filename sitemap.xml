@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/friends/index.html</loc>
+    
+    <lastmod>2019-10-19T09:21:12.273Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/2019/10/19/%E9%9D%99%E6%80%81%E5%B7%A5%E5%8E%82%E5%92%8C%E5%AE%9E%E4%BE%8B%E5%B7%A5%E5%8E%82%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2019-10-19T08:33:58.766Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://letcoder.cn/2019/09/19/Servlet%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</loc>
     
     <lastmod>2019-09-19T14:19:17.839Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/friends/index.html</loc>
-    
-    <lastmod>2019-09-16T11:25:09.271Z</lastmod>
     
   </url>
   
