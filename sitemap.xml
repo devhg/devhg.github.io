@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://letcoder.cn/2019/12/14/AVL%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91/</loc>
+    <loc>https://letcoder.cn/2019/09/15/java-memory-model/</loc>
     
-    <lastmod>2019-12-14T14:26:30.291Z</lastmod>
+    <lastmod>2019-12-15T06:36:56.099Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/12/14/AVL-tree/</loc>
+    
+    <lastmod>2019-12-15T06:35:38.917Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/09/26/IOC-AOP/</loc>
+    
+    <lastmod>2019-12-15T06:35:24.406Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/09/19/servlet-declaration/</loc>
+    
+    <lastmod>2019-12-15T06:35:03.651Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/10/07/Java-annotation/</loc>
+    
+    <lastmod>2019-12-15T06:33:45.690Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/09/04/forget-mysql-password/</loc>
+    
+    <lastmod>2019-12-15T06:32:40.726Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2019/08/17/onsubmit-ajax-error/</loc>
+    
+    <lastmod>2019-12-15T06:31:32.948Z</lastmod>
     
   </url>
   
@@ -44,13 +86,6 @@
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/10/07/Java%E6%B3%A8%E8%A7%A3%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2019-10-07T13:44:52.825Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://letcoder.cn/2019/09/17/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2019-10-07T13:30:43.172Z</lastmod>
@@ -68,27 +103,6 @@
     <loc>https://letcoder.cn/2019/09/29/%E5%85%B3%E4%BA%8E%E5%90%8C%E6%AD%A5%E5%BC%82%E6%AD%A5%E4%B8%8E%E9%98%BB%E5%A1%9E%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
     
     <lastmod>2019-09-29T11:10:26.129Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/2019/09/26/%E4%BB%80%E4%B9%88%E6%98%AFIOC%E5%92%8CAOP/</loc>
-    
-    <lastmod>2019-09-26T02:35:43.173Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/2019/09/15/Java%E5%A0%86%E6%A0%88/</loc>
-    
-    <lastmod>2019-09-26T02:35:21.108Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/2019/09/19/Servlet%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</loc>
-    
-    <lastmod>2019-09-19T14:19:17.839Z</lastmod>
     
   </url>
   
@@ -131,20 +145,6 @@
     <loc>https://letcoder.cn/2019/09/05/centos%E4%BF%AE%E6%94%B9mysql-root%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
     
     <lastmod>2019-09-05T12:18:20.325Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/2019/09/04/Mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    
-    <lastmod>2019-09-04T13:05:02.021Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/2019/08/17/%E8%A1%A8%E5%8D%95onsubmit%E4%BA%8B%E4%BB%B6%E6%97%A0%E6%95%88-%E8%A1%A8%E5%8D%95onsubmit%E5%90%8E%E4%BD%BF%E7%94%A8ajax%E6%97%A0%E6%95%88%E8%A7%A3%E5%86%B3/</loc>
-    
-    <lastmod>2019-08-17T12:30:10.598Z</lastmod>
     
   </url>
   
