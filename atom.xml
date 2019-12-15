@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://letcoder.cn/"/>
-  <updated>2019-12-15T09:29:17.283Z</updated>
+  <updated>2019-12-15T06:35:38.917Z</updated>
   <id>https://letcoder.cn/</id>
   
   <author>
@@ -15,69 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>a</title>
-    <link href="https://letcoder.cn/2019/12/15/a/"/>
-    <id>https://letcoder.cn/2019/12/15/a/</id>
-    <published>2019-12-15T09:29:17.000Z</published>
-    <updated>2019-12-15T09:29:17.283Z</updated>
-    
-    <content type="html"><![CDATA[<!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --><!-- rebuild by neat -->]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --&gt;&lt;!-- rebuild by neat --&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>aaaa</title>
-    <link href="https://letcoder.cn/2019/12/15/aaaa/"/>
-    <id>https://letcoder.cn/2019/12/15/aaaa/</id>
-    <published>2019-12-15T09:23:23.000Z</published>
-    <updated>2019-12-15T09:23:23.064Z</updated>
-    
-    <content type="html"><![CDATA[<!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --><!-- rebuild by neat -->]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --&gt;&lt;!-- rebuild by neat --&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ssss</title>
-    <link href="https://letcoder.cn/2019/12/15/ssss/"/>
-    <id>https://letcoder.cn/2019/12/15/ssss/</id>
-    <published>2019-12-15T09:20:00.000Z</published>
-    <updated>2019-12-15T09:20:00.244Z</updated>
-    
-    <content type="html"><![CDATA[<!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --><!-- rebuild by neat -->]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --&gt;&lt;!-- rebuild by neat --&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>AVL平衡二叉树学习</title>
@@ -482,6 +419,56 @@
       
       
         &lt;!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;hexo配置文件进行相应的修改&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://letcoder.cn/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://letcoder.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新启程，一个新的开始</title>
+    <link href="https://letcoder.cn/2019/08/12/%E6%96%B0%E5%90%AF%E7%A8%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+    <id>https://letcoder.cn/2019/08/12/新启程，一个新的开始/</id>
+    <published>2019-08-12T11:36:24.000Z</published>
+    <updated>2019-08-12T11:40:46.281Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --><h2 id="这是一个全新开始"><a href="#这是一个全新开始" class="headerlink" title="这是一个全新开始"></a>这是一个全新开始</h2><p>建立这个新的站点，来记录一些东西。</p><p>以前的站点 用的是typecho已经鸽了一个月，没更新内容。不在打算更新。</p><p>今天开始 转为 Hexo站点，原因是 这个主题太好看了</p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --&gt;&lt;h2 id=&quot;这是一个全新开始&quot;&gt;&lt;a href=&quot;#这是一个全新开始&quot; class=&quot;headerlink&quot; title=&quot;这是一个全新开始&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+      <category term="杂谈" scheme="https://letcoder.cn/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="杂谈" scheme="https://letcoder.cn/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo新开始</title>
+    <link href="https://letcoder.cn/2019/08/12/Hexo%E6%96%B0%E5%BC%80%E5%A7%8B/"/>
+    <id>https://letcoder.cn/2019/08/12/Hexo新开始/</id>
+    <published>2019-08-12T10:50:11.503Z</published>
+    <updated>2019-08-12T11:37:27.680Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Dec 15 2019 17:29:25 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/
       
     
     </summary>
