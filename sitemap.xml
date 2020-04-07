@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://letcoder.cn/friends/index.html</loc>
+    
+    <lastmod>2020-04-07T14:20:52.063Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://letcoder.cn/2020/04/07/go-composition/</loc>
+    
+    <lastmod>2020-04-07T14:08:10.491Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://letcoder.cn/2019/12/31/2019-summary/</loc>
     
     <lastmod>2019-12-31T15:39:05.081Z</lastmod>
@@ -103,13 +117,6 @@
     <loc>https://letcoder.cn/2019/11/26/equals%E4%B8%8E%E7%AD%89%E4%BA%8E%E7%AD%89%E4%BA%8E%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2019-11-26T14:17:46.626Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/friends/index.html</loc>
-    
-    <lastmod>2019-10-19T09:21:12.273Z</lastmod>
     
   </url>
   
