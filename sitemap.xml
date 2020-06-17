@@ -2,203 +2,210 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://letcoder.cn/about/index.html</loc>
+    <loc>https://blog.ihui.ink/2019/12/15/build-own-gitServer/</loc>
+    
+    <lastmod>2020-06-17T14:51:58.719Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ihui.ink/2020/06/17/go-import/</loc>
+    
+    <lastmod>2020-06-17T14:49:54.072Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.ihui.ink/about/index.html</loc>
     
     <lastmod>2020-06-14T06:46:18.613Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2020/06/14/go-reflect/</loc>
+    <loc>https://blog.ihui.ink/2020/06/14/go-reflect/</loc>
     
     <lastmod>2020-06-14T06:40:03.956Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/friends/index.html</loc>
+    <loc>https://blog.ihui.ink/friends/index.html</loc>
     
     <lastmod>2020-04-07T14:20:52.063Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2020/04/07/go-composition/</loc>
+    <loc>https://blog.ihui.ink/2020/04/07/go-composition/</loc>
     
     <lastmod>2020-04-07T14:08:10.491Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/12/31/2019-summary/</loc>
+    <loc>https://blog.ihui.ink/2019/12/31/2019-summary/</loc>
     
     <lastmod>2019-12-31T15:39:05.081Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/12/14/AVL-tree/</loc>
+    <loc>https://blog.ihui.ink/2019/12/14/AVL-tree/</loc>
     
     <lastmod>2019-12-21T01:48:34.634Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/12/15/build-own-gitServer/</loc>
-    
-    <lastmod>2019-12-15T13:09:11.810Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://letcoder.cn/2019/08/13/HTML5-app%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-java%E5%90%8E%E7%AB%AF/</loc>
+    <loc>https://blog.ihui.ink/2019/08/13/HTML5-app%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-java%E5%90%8E%E7%AB%AF/</loc>
     
     <lastmod>2019-12-15T07:09:28.166Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/30/Java-reflex/</loc>
+    <loc>https://blog.ihui.ink/2019/09/30/Java-reflex/</loc>
     
     <lastmod>2019-12-15T06:41:54.960Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/15/java-memory-model/</loc>
+    <loc>https://blog.ihui.ink/2019/09/15/java-memory-model/</loc>
     
     <lastmod>2019-12-15T06:36:56.099Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/26/IOC-AOP/</loc>
+    <loc>https://blog.ihui.ink/2019/09/26/IOC-AOP/</loc>
     
     <lastmod>2019-12-15T06:35:24.406Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/19/servlet-declaration/</loc>
+    <loc>https://blog.ihui.ink/2019/09/19/servlet-declaration/</loc>
     
     <lastmod>2019-12-15T06:35:03.651Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/10/07/Java-annotation/</loc>
+    <loc>https://blog.ihui.ink/2019/10/07/Java-annotation/</loc>
     
     <lastmod>2019-12-15T06:33:45.690Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/04/forget-mysql-password/</loc>
+    <loc>https://blog.ihui.ink/2019/09/04/forget-mysql-password/</loc>
     
     <lastmod>2019-12-15T06:32:40.726Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/08/17/onsubmit-ajax-error/</loc>
+    <loc>https://blog.ihui.ink/2019/08/17/onsubmit-ajax-error/</loc>
     
     <lastmod>2019-12-15T06:31:32.948Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/08/24/springMVC%E9%85%8D%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
+    <loc>https://blog.ihui.ink/2019/08/24/springMVC%E9%85%8D%E7%BD%AE%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
     
     <lastmod>2019-12-14T14:22:12.938Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/08/15/Mybatis%E6%9F%A5%E8%AF%A2parameterType%E5%A4%9A%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://blog.ihui.ink/2019/08/15/Mybatis%E6%9F%A5%E8%AF%A2parameterType%E5%A4%9A%E5%8F%82%E6%95%B0%E9%97%AE%E9%A2%98/</loc>
     
     <lastmod>2019-12-13T12:44:05.353Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/10/19/%E9%9D%99%E6%80%81%E5%B7%A5%E5%8E%82%E5%92%8C%E5%AE%9E%E4%BE%8B%E5%B7%A5%E5%8E%82%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://blog.ihui.ink/2019/10/19/%E9%9D%99%E6%80%81%E5%B7%A5%E5%8E%82%E5%92%8C%E5%AE%9E%E4%BE%8B%E5%B7%A5%E5%8E%82%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2019-12-13T12:42:01.846Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/11/26/equals%E4%B8%8E%E7%AD%89%E4%BA%8E%E7%AD%89%E4%BA%8E%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://blog.ihui.ink/2019/11/26/equals%E4%B8%8E%E7%AD%89%E4%BA%8E%E7%AD%89%E4%BA%8E%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2019-11-26T14:17:46.626Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/17/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://blog.ihui.ink/2019/09/17/Java%E6%B3%9B%E5%9E%8B%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2019-10-07T13:30:43.172Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/29/%E5%85%B3%E4%BA%8E%E5%90%8C%E6%AD%A5%E5%BC%82%E6%AD%A5%E4%B8%8E%E9%98%BB%E5%A1%9E%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
+    <loc>https://blog.ihui.ink/2019/09/29/%E5%85%B3%E4%BA%8E%E5%90%8C%E6%AD%A5%E5%BC%82%E6%AD%A5%E4%B8%8E%E9%98%BB%E5%A1%9E%E9%9D%9E%E9%98%BB%E5%A1%9E%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
     
     <lastmod>2019-09-29T11:10:26.129Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/projects/index.html</loc>
+    <loc>https://blog.ihui.ink/projects/index.html</loc>
     
     <lastmod>2019-09-15T13:40:07.491Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/categories/index.html</loc>
+    <loc>https://blog.ihui.ink/categories/index.html</loc>
     
     <lastmod>2019-09-15T13:38:44.767Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/tags/index.html</loc>
+    <loc>https://blog.ihui.ink/tags/index.html</loc>
     
     <lastmod>2019-09-15T13:36:23.167Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/404.html</loc>
+    <loc>https://blog.ihui.ink/404.html</loc>
     
     <lastmod>2019-09-15T13:05:57.957Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/09/05/centos%E4%BF%AE%E6%94%B9mysql-root%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
+    <loc>https://blog.ihui.ink/2019/09/05/centos%E4%BF%AE%E6%94%B9mysql-root%E8%B4%A6%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
     
     <lastmod>2019-09-05T12:18:20.325Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/08/12/hexo-%E6%8A%A5%E9%94%99-Cannot-read-property-replace-of-null/</loc>
+    <loc>https://blog.ihui.ink/2019/08/12/hexo-%E6%8A%A5%E9%94%99-Cannot-read-property-replace-of-null/</loc>
     
     <lastmod>2019-08-12T11:45:05.625Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/08/12/%E6%96%B0%E5%90%AF%E7%A8%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</loc>
+    <loc>https://blog.ihui.ink/2019/08/12/%E6%96%B0%E5%90%AF%E7%A8%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</loc>
     
     <lastmod>2019-08-12T11:40:46.281Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://letcoder.cn/2019/08/12/Hexo%E6%96%B0%E5%BC%80%E5%A7%8B/</loc>
+    <loc>https://blog.ihui.ink/2019/08/12/Hexo%E6%96%B0%E5%BC%80%E5%A7%8B/</loc>
     
     <lastmod>2019-08-12T11:37:27.680Z</lastmod>
     
