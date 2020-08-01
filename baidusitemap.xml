@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.ihui.ink/2020/08/01/go-assertion/</loc>
+    <lastmod>2020-08-01</lastmod>
+  </url>  <url>
     <loc>https://blog.ihui.ink/2019/12/15/build-own-gitServer/</loc>
     <lastmod>2020-06-17</lastmod>
   </url>  <url>
