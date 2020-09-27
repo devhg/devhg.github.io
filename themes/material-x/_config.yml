@@ -50,8 +50,8 @@ backstretch:
   duration: 6000 # 持续时间（毫秒）
   fade: 2500     # 渐变（毫秒）
   images:
-    - https://img.vim-cn.com/29/91197b04c13f512f734a76d4ac422d89dbe229.jpg
-
+    # - https://img.vim-cn.com/29/91197b04c13f512f734a76d4ac422d89dbe229.jpg
+    - https://cdn.jsdelivr.net/gh/Colsrch/CDN/wallpaper-2.webp
 
 
 ############################### 自定义 ###############################

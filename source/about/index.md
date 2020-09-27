@@ -20,7 +20,15 @@ sidebar: false
   github: 'https://github.com/QXQZX',
   blog: 'https://blog.hui.ink',
   email: 'devhui@ihui.ink',
-  description: '一杯水，一包烟，一个bug玩一天',
+  description: '
+  Here are some quick things about me:
+  
+  🔭 I'm a University Student, and I am learning programming.
+  🧑‍💻 Coding is my passion.
+  📫 The best way to reach me is to send me an email.
+  🌱 I’m currently learning Golang & Java language. I hope I can be qualified them in the future.
+  ⚡ Fun fact: My english is very !good.
+  ',
 
   skills: [
     ['Html', 'JavaScript', 'jQuery', 'CSS', 'ES6', 'Node', 'Vue'],

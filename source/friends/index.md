@@ -52,5 +52,5 @@ links:
 > 名称： QXQZX's Blog
 > 头像： https://tva2.sinaimg.cn/large/006nIlf0ly1gam30t0eddj31o01o0h7q.jpg
 > 网址： https://ihui.ink
-> 标签： Java Go 前端
+> 标签： Java Go 后端
 
