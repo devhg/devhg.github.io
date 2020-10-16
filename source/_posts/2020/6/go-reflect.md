@@ -1,5 +1,6 @@
 ---
 title: Go 基础之反射
+permalink: go-reflect
 date: 2020-06-14 13:02:09
 toc: true
 tags:

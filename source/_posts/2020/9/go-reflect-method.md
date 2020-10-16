@@ -1,5 +1,6 @@
 ---
 title: Go语言反射进阶
+permalink: go-reflect-method
 date: 2020-09-27 15:37:36
 toc: true
 tags:

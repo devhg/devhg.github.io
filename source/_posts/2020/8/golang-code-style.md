@@ -1,5 +1,6 @@
 ---
 title: 【转】golang代码风格
+permalink: golang-code-style
 date: 2020-08-09 23:14:49
 toc: true
 tags:

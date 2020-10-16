@@ -17,6 +17,7 @@ timezone:
 url: https://blog.ihui.ink
 root: /
 permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -30,7 +31,8 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+# new_post_name: :title.md # File name of new posts
+new_post_name: :year/:month/:title
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab

@@ -1,5 +1,6 @@
 ---
 title: AVL平衡二叉树学习
+permalink: AVL-tree
 date: 2019-12-14 21:16:49
 tags:
   - 数据结构

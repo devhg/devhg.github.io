@@ -1,5 +1,6 @@
 ---
 title: Mysql忘记密码解决方案
+permalink: forget-mysql-password
 date: 2019-09-04 21:02:38
 Toc: true
 tags:

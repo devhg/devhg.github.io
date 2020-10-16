@@ -1,5 +1,6 @@
 ---
 title: Servlet生命周期
+permalink: servlet-declaration
 date: 2019-09-19 22:08:42
 Toc: true
 tags:

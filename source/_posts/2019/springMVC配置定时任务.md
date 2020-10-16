@@ -1,5 +1,6 @@
 ---
 title: springMVC配置定时任务
+permalink: springMVC配置定时任务
 date: 2019-08-24 21:31:22
 toc: true
 tags:

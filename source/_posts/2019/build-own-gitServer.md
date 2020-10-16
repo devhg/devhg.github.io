@@ -1,5 +1,6 @@
 ---
 title: 搭建自己的Git服务器并部署Hexo站点
+permalink: build-own-gitServer
 date: 2019-12-15 18:44:57
 toc: true
 tags:

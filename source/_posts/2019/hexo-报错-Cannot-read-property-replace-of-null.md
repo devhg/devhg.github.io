@@ -1,5 +1,6 @@
 ---
 title: hexo 报错 Cannot read property 'replace' of null
+permalink: hexo-报错-Cannot-read-property-replace-of-null
 date: 2019-08-12 19:41:24
 tags:
  - Hexo
@@ -42,6 +43,7 @@ FATAL Cannot read property 'replace' of null
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' url: 
 root: /
 permalink: :year/:month/:day/:title/
+permalink: hexo-报错-Cannot-read-property-replace-of-null
 permalink_defaults:
 ```
 

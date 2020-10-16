@@ -1,5 +1,6 @@
 ---
 title: Mybatis查询parameterType多参数问题
+permalink: Mybatis查询parameterType多参数问题
 date: 2019-08-15 21:32:45
 tags:
  - Java

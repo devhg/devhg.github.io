@@ -1,5 +1,6 @@
 ---
 title: Go语言通过channel实现并发控制
+permalink: GoPool
 date: 2020-10-11 15:25:46
 toc: true
 tags:

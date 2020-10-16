@@ -1,11 +1,12 @@
 ---
 title: 表单onsubmit事件无效&表单onsubmit后使用ajax无效解决
+permalink: onsubmit-ajax-error
 date: 2019-08-17 20:02:47
 toc: true
 tags:
-  - Web移动端
+  - Web
 categories:
- - HTML5+APP
+  - Web
 ---
 
 这段时间在写一个h5+app，用于一个组队比赛项目的app。由于自身也没有多少前端开发的经验，也就是闷着头一直乱写，在开发中也遇到了各种难题。

@@ -1,5 +1,6 @@
 ---
 title: 什么是IOC和AOP
+permalink: IOC-AOP
 date: 2019-09-26 10:33:06
 toc: true
 tags:

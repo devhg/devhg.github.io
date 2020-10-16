@@ -1,5 +1,6 @@
 ---
 title: Go 组合取代继承
+permalink: go-composition
 date: 2020-04-07 21:26:54
 toc: true
 tags:
@@ -41,12 +42,14 @@ func (a author) fullName() string {
 ```go
 type post struct {
 	title   string
+permalink: go-composition
 	content string
 	author  // 嵌套author结构体 **这里会自动组合author的所有方法和字段
 }
 
 func (p post) details() {
 	fmt.Println("title: ", p.title)
+permalink: go-composition
 	fmt.Println("content: ", p.content)
 	// fmt.Println("author: ", p.author.fullName())
 	fmt.Println("author: ", p.fullName()) // 自动组合author的所有方法和字段
@@ -77,12 +80,14 @@ func (a author) fullName() string {
 
 type post struct {
 	title   string
+permalink: go-composition
 	content string
 	author  // 嵌套author结构体 **这里会自动组合author的所有方法和字段
 }
 
 func (p post) details() {
 	fmt.Println("title: ", p.title)
+permalink: go-composition
 	fmt.Println("content: ", p.content)
 	//fmt.Println("author: ", p.author.fullName())
 	fmt.Println("author: ", p.fullName()) // 自动组合author的所有方法和字段
@@ -96,6 +101,7 @@ func main() {
 
 	post1 := post{
 		title:   "1",
+permalink: go-composition
 		content: "1111",
 		author:  author1,
 	}
@@ -105,6 +111,7 @@ func main() {
 
 ```shell
 title:  1
+permalink: go-composition
 content:  1111
 author:  gh z
 
@@ -139,12 +146,14 @@ func (a author) fullName() string {
 
 type post struct {
 	title   string
+permalink: go-composition
 	content string
 	author  // 嵌套author结构体 **这里会自动组合author的所有方法和字段
 }
 
 func (p post) details() {
 	fmt.Println("title: ", p.title)
+permalink: go-composition
 	fmt.Println("content: ", p.content)
 	//fmt.Println("author: ", p.author.fullName())
 	fmt.Println("author: ", p.fullName()) // 自动组合author的所有方法和字段
@@ -172,11 +181,13 @@ func main() {
 
 	post1 := post{
 		title:   "1",
+permalink: go-composition
 		content: "1111",
 		author:  author1,
 	}
 	post2 := post{
 		title:   "2",
+permalink: go-composition
 		content: "2222",
 		author:  author1,
 	}
@@ -190,10 +201,12 @@ func main() {
 ```
 view website
 title:  1
+permalink: go-composition
 content:  1111
 author:  gh z
 
 title:  2
+permalink: go-composition
 content:  2222
 author:  gh z
 

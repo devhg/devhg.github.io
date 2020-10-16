@@ -1,11 +1,12 @@
 ---
 title: Java泛型学习
+permalink: Java泛型学习
 date: 2019-09-17 19:28:14
 toc: true
 tags:
  - Java
 categories:
- - Java底层
+ - Java基础
 ---
 
 我们在集合中会大量使用到泛型，这里来完整地学习泛型知识。

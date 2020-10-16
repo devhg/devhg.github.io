@@ -1,5 +1,6 @@
 ---
 title: Go 基础之import包与包内init方法的执行时机
+permalink: go-import
 date: 2020-06-17 22:32:57
 toc: true
 tags:

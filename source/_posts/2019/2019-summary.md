@@ -1,5 +1,6 @@
 ---
 title: 2019年 年终总结
+permalink: 2019-summary
 date: 2019-12-31 22:54:50
 toc: true
 tags:

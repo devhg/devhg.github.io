@@ -1,5 +1,6 @@
 ---
 title: Java注解学习
+permalink: Java-annotation
 date: 2019-10-07 21:28:44
 toc: true
 tags:

@@ -1,6 +1,7 @@
 ---
 
 title: centos修改mysql root账户密码
+permalink: centos修改mysql-root账户密码
 date: 2019-09-05 20:04:29
 Toc: true
 tags:

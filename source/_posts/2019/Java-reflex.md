@@ -1,11 +1,12 @@
 ---
 title: Java反射机制深入学习
+permalink: Java-reflex
 date: 2019-09-30 19:29:07
 toc: true
 tags:
  - Java
 categories:
- - Java底层
+ - Java基础
 ---
 
 **反射是框架设计的灵魂（使用的前提条件：必须先得到代表的字节码的Class，Class类用于表示.class文件（字节码）**

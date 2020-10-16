@@ -1,5 +1,6 @@
 ---
 title: equals与==的区别
+permalink: equals与等于等于的区别
 date: 2019-11-26 22:14:52
 toc: true
 tags:

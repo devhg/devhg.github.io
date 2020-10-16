@@ -1,11 +1,12 @@
 ---
 title: Java中的堆区、栈区、方法区
+permalink: java-memory-model
 date: 2019-09-15 20:33:09
 toc: true
 tags:
  - Java
 categories:
- - Java底层
+ - Java基础
 ---
 
 JAVA的JVM的内存可分为3个区：堆(heap)、栈(stack)和方法区(method)

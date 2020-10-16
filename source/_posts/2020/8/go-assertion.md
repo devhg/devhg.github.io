@@ -1,5 +1,6 @@
 ---
 title: Go 断言的实用
+permalink: go-assertion
 date: 2020-08-01 08:05:56
 toc: true
 tags:
