@@ -13,13 +13,33 @@ Go 语言中反射的操作主要定义在标准库 [`reflect`](https://golang.o
 
 <!--more-->
 
+用到的结构体
+
+```go
+type User struct {
+	Name string `json:"name",yaml:"Name"`
+	Age  int    `json:"age,omitempty"`
+	From string `json:"from"`
+}
+
+func (u *User) Hello() {
+	fmt.Println("hello")
+}
+
+func (u User) Hi() {
+	fmt.Println("hi")
+}
+```
+
+
+
 
 
 ## 一、反射对象 Value 和 Type
 
 既然 Go 语言中所有反射操作都是基于 `Value` 和 `Type` 进行的，那么想要进行反射操作，首先就要获取到反射对象的这两个类型对象才可以。
 
-`reflect` 包提供了两个函数：`reflect.ValueOf(x)` 和 `reflect.TypeOf(x)`，通过这两个函数就可以方便的获取到任意类型（用 `interface{}` 表示任意类型）的 `Value` 对象和 `Type` 对象。只有当X是指针的时候，才可以通过`reflect.Value`修改实际变量X的值，即：要修改反射类型的对象就一定要保证其值是**“addressable”**的。例如：
+`reflect` 包提供了两个函数：`reflect.ValueOf(x)` 和 `reflect.TypeOf(x)`，通过这两个函数就可以方便的获取到任意类型（用 `interface{}` 表示任意类型）的 `Value` 对象和 `Type` 对象。
 
 ```go
 u := User{"tom", 27, "beijing"}
@@ -29,6 +49,11 @@ fmt.Println(v)
 
 t := reflect.TypeOf(u)
 fmt.Println(t)
+
+/*
+{tom 27 beijing}
+m_reflect.User
+*/
 ```
 
 知道 `Value` 对象后，也可以通过 `Value.Type()` 方法获取到 `Type` 对象。例如：
@@ -36,6 +61,7 @@ fmt.Println(t)
 ```go
 t1 := v.Type()
 fmt.Println(t == t1)
+// true
 ```
 
 可以看到输出结果为 `true`。
@@ -96,7 +122,11 @@ fmt.Println(k)
 k1 := v.Kind()
 fmt.Println(k1)
 fmt.Println(k == k1) // true
-fmt.Println()
+/*
+struct
+struct
+true
+*/
 ```
 
 可以看到两种方式获取的结果是一样的，都是 `struct`。
@@ -105,12 +135,23 @@ fmt.Println()
 
 反射能够操作的字段和方法必须是可导出（**首字母大写**）的。
 
-反射对象的字段值修改要通过调用 `Value` 类型的方法 `Elem()` 后返回的 `Value` 对象值来操作。
+反射对象的**字段值修改**要通过调用 `Value` 类型的方法 `Elem()` 后返回的 `Value` 对象值来操作。
+
+`reflect.ValueOf(x)`只有当X是指针的时候，才可以修改实际变量X的值，即：要修改反射类型的对象就一定要保证其值是**“addressable”**的。
 
 * `Elem()` 方法定义：`func (v Value) Elem() Value`，返回 `v` 包含的值或指针 `v` 指向的值，如果`v` 的 `Kind` 不是 `Interface` 或 `Ptr`，则会 panic。
+* `reflect.Indirect()` 如果参数是指针的 `Value`，则相当于调用了 `Elem()` 方法返回的值，否则返回 `Value` 自身值。对上面方法的一种优化操作。
 
-* `reflect.Indirect()` 函数的如果参数是指针的 `Value`，则相当于调用了 `Elem()` 方法返回的值，否则返回 `Value` 自身值。
-* 上面两个方法主要用于反射字段的操作，使用上面两个方法后无法反射到方法。反射最好传入对象指针类型
+```go
+func Indirect(v Value) Value {
+	if v.Kind() != Ptr {
+		return v
+	}
+	return v.Elem()
+}
+```
+
+示例：反射修改综合应用
 
 ```go
 // 修改反射对象的值
@@ -118,45 +159,107 @@ i := 20
 fmt.Println("before i =", i)
 e := reflect.Indirect(reflect.ValueOf(&i))
 // 或者e := reflect.ValueOf(&i).Elem()
+
+fmt.Println("canset: ", e.CanSet())
 if e.CanSet() {
     e.SetInt(22)
 }
 fmt.Println("after i =", i)
 
-
-// 反射字段操作
-// elem := reflect.Indirect(reflect.ValueOf(&u))
-elem := reflect.ValueOf(&u).Elem()
-for i := 0; i < t.NumField(); i++ {
-    // 反射获取字段的元信息，例如：名称、Tag 等
-    ft := t.Field(i)
-    fmt.Println("field name:", ft.Name)
-    tag := ft.Tag
-    fmt.Println("Tag:", tag) // 获取tag
-    fmt.Println("Tag json:", tag.Get("json")) // 根据tag名字获取
-
-    // 反射修改字段的值（）
-    fv := elem.Field(i)
-    if fv.CanSet() {
-        if fv.Kind() == reflect.Int {
-            fmt.Println("change age to 30")
-            fv.SetInt(30)
-        }
-        if fv.Kind() == reflect.String {
-            fmt.Println("change name to jerry")
-            fv.SetString("jerry")
-        }
-    }
-    fmt.Println()
-}
-fmt.Println("after user:", u)
+/*
+before i = 20
+canset:  true
+after i = 22
+*/
 ```
 
+```go
+// 反射字段操作
+u := User{"tom", 27, "beijing"}
+// elem := reflect.Indirect(reflect.ValueOf(&u)) // 等效于下方
+elem := reflect.ValueOf(&u).Elem()
+t := elem.Type()
 
+fmt.Println("before user:", u)
+for i := 0; i < t.NumField(); i++ {
+  // 反射获取字段的元信息，例如：名称、Tag 等
+  ft := t.Field(i)
+  fmt.Printf("field name:%s\t", ft.Name)
+  fmt.Printf("Tags:%s\t", ft.Tag)                 // 获取所有tag
+  fmt.Printf("Tag json:%s\n", ft.Tag.Get("json")) // 根据tag名字获取
+
+  // 反射修改字段的值（）
+  fv := elem.Field(i)
+  if fv.CanSet() {
+    if fv.Kind() == reflect.Int {
+      fmt.Println("change age to 30")
+      fv.SetInt(30)
+    }
+  }
+}
+fmt.Println("after user:", u)
+
+/*
+before user: {tom 27 beijing}
+field name:Name	Tags:json:"name",yaml:"Name"	Tag json:name
+field name:Age	Tags:json:"age,omitempty"	Tag json:age,omitempty
+change age to 30
+field name:From	Tags:json:"from"	Tag json:from
+after user: {tom 30 beijing}
+*/
+```
+
+可以看到 age字段被修改了
 
 ## 四、反射对象的方法
 
 可以通过 `Value` 的 `Method()` 方法或 `Type` 的 `Method()` 方法，两种形式获取对象方法信息进行反射调用，略有不同，示例如下：
+
+示例一：简单调用
+
+```go
+u := User{"tom", 27, "beijing"}
+rv := reflect.Indirect(reflect.ValueOf(u))
+rt := rv.Type()
+fmt.Println(rv.NumMethod())
+
+for i := 0; i < rv.NumMethod(); i++ {
+  mv := rv.Method(i) // 通过value
+  mt := rt.Method(i) // 通过type获取
+  fmt.Println(mt)
+
+  param := []reflect.Value{reflect.ValueOf(u)}
+  mt.Func.Call(param) // 同样可以调用，不过len(params)必须>0  待考究
+
+  if mv.IsValid() {
+    if v := mv.Call(nil); len(v) > 0 {
+      if err, ok := v[0].Interface().(error); ok {
+        log.Fatal(err)
+      }
+    }
+  }
+  
+}
+
+//通过函数名字调用
+fm := rv.MethodByName("Hi")
+if fm.IsValid() {
+  if v := fm.Call(nil); len(v) > 0 {
+    if err, ok := v[0].Interface().(error); ok {
+      log.Fatal(err)
+    }
+  }
+}
+/*
+1
+{Hi  func(m_reflect.User) <func(m_reflect.User) Value> 0}
+hi
+hi
+hi
+*/
+```
+
+示例二：传参调用
 
 ```go
 // 反射方法操作
@@ -164,7 +267,6 @@ for i := 0; i < v.NumMethod(); i++ {
     // method := t.Method(i) // 获取方法信息对象，方法 1(type反射)
     // mt := method.Type     // 获取方法信息 Type 对象，方法 1
     // fmt.Println("method name:", method.Name)
-    
     
     m := v.Method(i) // 获取方法信息对象，方法 2 (value反射)
     mt := m.Type()   // 获取方法信息 Type 对象，方法 2
@@ -196,6 +298,54 @@ for i := 0; i < v.NumMethod(); i++ {
     }
 }
 ```
+
+
+
+**注意：上面的方式只能反射到了值接收器的方法，对于指针接收器的方法，需要采用如下的方式**
+
+
+
+```go
+u := User{"tom", 27, "beijing"}
+rv := reflect.Indirect(reflect.ValueOf(u))
+rt := rv.Type()
+
+t := reflect.PtrTo(rt)
+for i := 0; i < t.NumMethod(); i++ {
+  mt := t.Method(i) // 通过value
+
+  fmt.Println(mt)
+
+  param := []reflect.Value{reflect.ValueOf(&u)}
+  if mt.Func.IsValid() {
+    if v := mt.Func.Call(param); len(v) > 0 {
+      if err, ok := v[0].Interface().(error); ok {
+        log.Fatal(err)
+      }
+    }
+  }
+
+}
+/*
+{Hello  func(*m_reflect.User) <func(*m_reflect.User) Value> 0}
+hello
+{Hi  func(*m_reflect.User) <func(*m_reflect.User) Value> 1}
+hi
+*/
+```
+
+
+
+可以看到，**值类型`T`只有值接收器方法，而指针类型`*T`同时有值接收器方法和指针接收器方法**。
+
+所以总结一下：
+
+- 如果一个方法仅出现在**指针类型**的方法集中，那么它是**指针接收器**
+- 如果一个方法同时出现在**指针类型**和**值类型**的方法集中，那么它是**值接收器**
+
+
+
+[通过反射判断是值接收器还是指针接收器](https://blog.twofei.com/789/)
 
 
 
@@ -246,10 +396,10 @@ func DoFiledAndMethod(input interface{}) {
 	getValue := reflect.ValueOf(input)
 	fmt.Println("get all Fields is:", getValue)
 
-	// 获取方法字段
+	// 获取字段
 	// 1. 先获取interface的reflect.Type，然后通过NumField进行遍历
 	// 2. 再通过reflect.Type的Field获取其Field
-	// 3. 最后通过Field的Interface()得到对应的value
+	// 3. 最后通过reflect.Value获取Field的Interface()得到对应的value
 	for i := 0; i < getType.NumField(); i++ {
 		field := getType.Field(i)
 		value := getValue.Field(i).Interface()
@@ -263,6 +413,14 @@ func DoFiledAndMethod(input interface{}) {
 		fmt.Printf("%s: %v\n", m.Name, m.Type)
 	}
 }
+/*
+get Type is : User
+get all Fields is: {1 0 2}
+Name: string = 1
+Age: int = 0
+From: string = 2
+Hi: func(m_reflect.User)
+*/
 ```
 
 
@@ -271,4 +429,5 @@ func DoFiledAndMethod(input interface{}) {
 
 * [Golang的反射reflect深入理解和示例](https://juejin.im/post/6844903559335526407)
 * [Golang 反射使用总结](https://ehlxr.me/2018/01/26/golang-reflect/)
+* [通过反射判断是值接收器还是指针接收器](https://blog.twofei.com/789/)
 
