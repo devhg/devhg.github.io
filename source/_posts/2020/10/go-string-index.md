@@ -1,5 +1,5 @@
 ---
-title: Go中下标访问字符串问题
+title: Go中下标访问字符串问题及string类型如何存储
 permalink: go-string-index
 toc: true
 date: 2020-10-24 19:10:33
@@ -140,7 +140,7 @@ UTF-8 是编码规则，将 Unicode 中字符的 ID 以某种方式进行编码�
 
 ```
 Unicode符号范围     |        UTF-8编码方式
-(十六进制)        |              （二进制）
+(十六进制)          |            （二进制）
 ----------------------+---------------------------------------------
 0000 0000-0000 007F | 0xxxxxxx
 0000 0080-0000 07FF | 110xxxxx 10xxxxxx
@@ -159,6 +159,33 @@ Unicode符号范围     |        UTF-8编码方式
 根据这个规则，拉丁文语系的字符编码一般情况下每个字符占用一个字节，而中文每个字符占用 3 个字节。
 
 广义的 Unicode 指的是一个标准，它定义了字符集及编码规则，即 Unicode 字符集和 UTF-8、UTF-16 编码等。
+
+
+
+### golang string如何存储
+
+<img src="https://i.loli.net/2020/11/14/RI8arN36BMYCovi.jpg" alt="gostring.png" style="zoom:50%;" />
+
+在c语言中，字符串以一个`\0`结束一个字符串。而在go语言中不是这样的。
+
+上源码
+
+```go
+type stringStruct struct {
+	str unsafe.Pointer // 指向一个 [len]byte 的数组
+	len int						 // 字节数组长度
+}
+```
+
+如上就是go语言的string结构体，string类型是一个不可变类型，那么任何对string的修改都会新生成一个string的实例，如果是考虑效率的场景就要好好考虑一下如何修改了。
+
+只能用下标访问一些特殊的字符；不能直接修改字符串；字符串转字节切片会重新分配一块内存。
+
+```go
+s1 := "111我"
+s2 := s1[1:]
+// s2 和 s1指向同一块内存
+```
 
 
 
