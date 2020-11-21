@@ -102,6 +102,17 @@ func main() {
   fmt.Println(len(runes))
 	fmt.Printf("s[0]=%c\n", runes[0])
 	fmt.Printf("s[1]=%c\n", runes[1])
+  
+  // 或者
+  //s := "l我"
+	//for _, v := range s {
+	//	fmt.Printf("%T ", v)
+	//	fmt.Printf("%c\n", v)
+	//}
+  /*
+  int32 l
+	int32 我
+	*/
 }
 // 下标访问字符串
 func Index(s string, index uint) string {
